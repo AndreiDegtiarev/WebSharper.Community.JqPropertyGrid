@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Community.JqPropertyGrid.Sample", "WebSharper.Community.JqPropertyGrid.Sample\WebSharper.Community.JqPropertyGrid.Sample.fsproj", "{9EE88E9D-5FA6-41DD-B55B-921F462E768F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Community.JqPropertyGrid", "WebSharper.Community.JqPropertyGrid\WebSharper.Community.JqPropertyGrid.fsproj", "{AE96177A-CAC8-42E7-8CC0-0B00BEB5E35B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EE88E9D-5FA6-41DD-B55B-921F462E768F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE88E9D-5FA6-41DD-B55B-921F462E768F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE88E9D-5FA6-41DD-B55B-921F462E768F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE88E9D-5FA6-41DD-B55B-921F462E768F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE96177A-CAC8-42E7-8CC0-0B00BEB5E35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE96177A-CAC8-42E7-8CC0-0B00BEB5E35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE96177A-CAC8-42E7-8CC0-0B00BEB5E35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE96177A-CAC8-42E7-8CC0-0B00BEB5E35B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
