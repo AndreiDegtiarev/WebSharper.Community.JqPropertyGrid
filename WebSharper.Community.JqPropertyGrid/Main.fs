@@ -1,4 +1,4 @@
-namespace ExtJqPropertyGrid
+namespace WebSharper.Community.JqPropertyGrid
 
 open WebSharper
 open WebSharper.JavaScript
@@ -19,7 +19,7 @@ module Definition =
             ]
             Namespace "WebSharper.Community.JqPropertyGrid.Resources" [
                 //Resource "jqueryui_" "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"
-                Resource "JqPropertyGrid" "/Scripts/jqPropertyGrid.js"
+                Resource "JqPropertyGrid" "jqPropertyGrid.js"
                 |> fun r -> r.AssemblyWide()
             ]
 

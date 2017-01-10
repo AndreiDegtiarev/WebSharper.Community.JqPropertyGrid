@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Main.fs" />
     <Content Include="packages.config" />
+    <EmbeddedResource Include="Scripts\jqPropertyGrid.js" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
