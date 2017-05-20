@@ -18,7 +18,8 @@ module Definition =
                  JqPropertyGrid
             ]
             Namespace "WebSharper.Community.JqPropertyGrid.Resources" [
-                //Resource "jqueryui_" "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"
+                Resource "JqPropertyGrid_css" "jqPropertyGrid.css"
+                |> fun r -> r.AssemblyWide()
                 Resource "JqPropertyGrid" "jqPropertyGrid.js"
                 |> fun r -> r.AssemblyWide()
             ]
